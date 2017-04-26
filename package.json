@@ -1,0 +1,32 @@
+{
+  "name": "@alu0100813272/ull-shape-jairo",
+  "version": "0.0.6",
+  "description": "Shape",
+  "main": "./lib/shapesarea.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require should"
+  },
+  "bin": {
+    "myapp": "./bin/clip.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-DSI-1617/ull-shape-jairo.git"
+  },
+  "author": "jairo gonzalez lemus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DSI-1617/ull-shape-jairo/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/ull-shape-jairo#readme",
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "mocha": "^3.3.0",
+    "path": "^0.12.7",
+    "should": "^11.2.1"
+  }
+}
