@@ -1,4 +1,4 @@
-# Creación de paquetes npm [![Build Status](https://travis-ci.org/ULL-ESIT-DSI-1617/creacion-de-paquetes-npm-lucas-ivan-miguel-jairo-triangulo.svg?branch=master)](https://travis-ci.org/ULL-ESIT-DSI-1617/creacion-de-paquetes-npm-lucas-ivan-miguel-jairo-triangulo)
+# Creación de paquetes npm [![Build Status](https://travis-ci.org/ULL-ESIT-DSI-1617/ull-shape-jairo.svg?branch=master)](https://travis-ci.org/ULL-ESIT-DSI-1617/ull-shape-jairo)
 ## Paquete ull-shape-jairo
 
 Primer paso:
