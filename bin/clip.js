@@ -2,7 +2,7 @@
 "use strict";
 
 let util = require('util');
-let Shape = require('ull-shape-jairo');
+let Shape = require('@alu0100813272/ull-shape-jairo');
 var readline = require('readline');
 
 try {
@@ -11,53 +11,13 @@ try {
   
   let type = process.argv[3] || 'Triangle';
   
-  let Triangle = require('ull-shape-'+ type + '-jairo');
   
-  let t = new Shape(obj, type);
+  let Triangle = require('@alu0100813272/ull-shape-'+ type.toLowerCase() + '-jairo');
+  let t = new  Shape.Shapes[type](obj);
+ // console.log(type);
   let s = t.getArea();
-  console.log(s);
- // t = new Triangle({ width: 100, height: 100 });
-  t = new  Shape.Shapes[type](obj);
-  
-  console.log(type);
- // t = new type({ width: 100, height: 100 });
- 
-  //t = new Shape({ width: 100, height: 100 }, 'Triangle');
-  //t = new Shape({ width: 100, height: 100 }, 'Triangle');
- 
-  s = t.getArea();
-  
   console.log("Soy " + t.gettipo() + " y mi area es de " + s);
 
-/*  let a = new Triangle({ width: 100, height: 100 });
-  s = a.getArea();
-  console.log(s);
-
-  let sq = new Square({ width: 100});
-  s = sq.getArea();
-  console.log(s);
-
-  sq = new Shape({ width: 100}, 'Square');
-  s = sq.getArea();
-  console.log(s);
-  
-  let re = new Rectangle({ width: 100, height: 10});
-  s = re.getArea();
-  console.log(s);
-  
-  re = new Shape({ width: 100, height: 10}, 'Rectangle');
-  s = re.getArea();
-  console.log(s);
-
-  // error
-  let bg = new Shape({ width: 100, height: 10}, 'Bug');
-  s = bg.getArea();
-  console.log(s);
-
-  // error
-  bg = new Shape({ width: 100, height: 10});
-  s = bg.getArea();
-  console.log(s);*/
 }
 catch (e) {
   console.log(e.message);

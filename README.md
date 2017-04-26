@@ -12,7 +12,7 @@ Segundo paso, incluír el paquete en tu programa:
 require('@alu0100813272/ull-shape-jairo')
 ```
 ## Enlaces gh-pages
-* [Enlace gh-pages Shape](https://ull-esit-dsi-1617.github.io/ull-shape-jairo/)
+* [Enlace gh-pages Shape](https://ull-esit-dsi-1617.github.io/ull-shape-jairo/docs/)
 
 ## Enlaces a los repositorios
 * [Enlace a repositorio del paquete ull-shape-jairo](https://github.com/ULL-ESIT-DSI-1617/ull-shape-jairo)

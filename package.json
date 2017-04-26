@@ -1,6 +1,6 @@
 {
   "name": "@alu0100813272/ull-shape-jairo",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Shape",
   "main": "./lib/shapesarea.js",
   "scripts": {
